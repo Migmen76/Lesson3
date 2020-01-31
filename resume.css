@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(198, 206, 223);
+    padding:;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100%;
+
+}
+
+header{
+   /* background-image: url(../images/headerimage.jpg); */ 
+    background-size: ;
+    background-color: rgb(93, 139, 240);
+    background-size: ;
+    height: ;
+    width:auto;
+    padding:0.9em;
+    
+}
+
+.headerSection{
+    padding-right: 10em;
+    padding-left: 6em;
+}
+
+
+.font-effect-neon{
+    text-align:justify;
+    
+}
+
+
+.headerParagraph{
+    color:white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size:0.9em;
+    padding:0.9em;
+  
+    }
+
+    .resumeSection{
+        padding:10px;
+    }
+
+    .cycles{
+        border:solid;
+        padding:1em;
+    }
+
+ 
+h1 {
+    font-family: 'Orbitron';
+    padding:0.9em;
+    margin:0.9em;
+}
+
+.sectionOne{ 
+    padding:1em;
+    border:solid;
+    
+}
+
+.education{ 
+    border:solid;
+    padding:1em;
+    margin-bottom: 2em;
+}
+
+footer{
+    padding:1em;
+    border:solid;
+}
