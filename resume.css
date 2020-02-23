@@ -3,13 +3,16 @@ body{
     padding:;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width:100%;
+    padding:0;
+    margin:0; 
+    
 
 }
 
 header{
    /* background-image: url(../images/headerimage.jpg); */ 
     background-size: ;
-    background-color: rgb(93, 139, 240);
+    background-color: rgb(72, 93, 138);
     background-size: ;
     height: ;
     width:auto;
@@ -34,33 +37,94 @@ header{
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     font-size:0.9em;
     padding:0.9em;
-  
+    font-size: medium;
     }
+ nav{
+     padding-bottom: 65px;
+ }
+
+    nav ul{ 
+       list-style:none;
+    }
+
+    nav a{ 
+        text-decoration: none;
+        color: purple; 
+        padding:5px 10px; 
+        background-color: gray;
+        font:bold 28px/40px sans-serif;
+        border-radius: 20px;
+        margin:10px; 
+       
+       
+    }
+
+    nav ul li{
+        display:inline-block;
+        position: relative;
+        padding-right: 85px;
+        top:3px;
+       line-height:3em;
+       width:13%;
+    }
+nav ul li ul{ 
+    left:-9999999999px;
+    position:absolute;
+    top:3em;
+    width:40px;
+    top: 2.5em;
+    fill:auto;
+}
+
+nav li:hover ul {
+    left:-40px;
+    
+}
 
     .resumeSection{
         padding:10px;
+        margin: 15px 18em 15px 18em;
     }
 
     .cycles{
-        border:solid;
+       
         padding:1em;
     }
 
+    .resumeSection a{
+        text-decoration: none;
+    }
+
+    .attLogo{
+        float: left;
+        border: 0.5px solid black;
+        margin:10px;
+        box-shadow: 3px 3px 3px black;
+    }
  
 h1 {
     font-family: 'Orbitron';
     padding:0.9em;
     margin:0.9em;
+    font-size: 30px;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 .sectionOne{ 
     padding:1em;
-    border:solid;
+
+    
     
 }
 
 .education{ 
-    border:solid;
+  
     padding:1em;
     margin-bottom: 2em;
 }
